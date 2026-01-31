@@ -1,0 +1,31 @@
+{
+  "name": "module4mainevaluation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshara-19274/module4mainevaluation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/akshara-19274/module4mainevaluation/issues"
+  },
+  "homepage": "https://github.com/akshara-19274/module4mainevaluation#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.93.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
