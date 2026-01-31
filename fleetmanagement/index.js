@@ -1,8 +1,8 @@
-const experss = require("express");
-const app = experss();
+const express = require("express");
+const app = express();
 const logger = require("./middlewares/logger");
 const notFound = require("./middlewares/notFound");
-app.use(experss.json());
+app.use(express.json());
 app.use(logger);
 app.use('/users', require('./routes/user.routes'));
 app.use("/vehicles", require("./routes/vehicle.routes"));
